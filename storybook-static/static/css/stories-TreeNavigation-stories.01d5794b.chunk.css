@@ -1,0 +1,83 @@
+.TreeNavigation {
+    margin: 10px;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    min-width: 300px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.NavigationLevel {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.NavigationLevel li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.NavigationLevel ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.NavigationLevel ul .NavigationItem {
+    padding-left: 25px;
+}
+
+.NavigationLevel .NavigationLevel ul .NavigationItem {
+    padding-left: 50px;
+}
+
+.NavigationLevel .NavigationLevel .NavigationLevel ul .NavigationItem {
+    padding-left: 75px;
+}
+
+.NavigationLevel .NavigationLevel .NavigationLevel .NavigationLevel ul .NavigationItem {
+    padding-left: 100px;
+}
+
+.NavigationLevel .NavigationLevel .NavigationLevel .NavigationLevel .NavigationLevel ul .NavigationItem {
+    padding-left: 125px;
+}
+
+.NavigationLevel .NavigationLevel .NavigationLevel .NavigationLevel .NavigationLevel .NavigationLevel ul .NavigationItem {
+    padding-left: 150px;
+}
+
+
+.NavigationItem {
+    background-color: transparent;
+    min-height: 40px;
+    justify-content: space-between;
+}
+
+.NavigationItem:hover {
+    background-color: #f0f0f0;
+}
+
+.NavigationItemIcon {
+    margin-right: 5px;
+}
+
+.NavigationItemToolbar {
+    display: none;
+    margin-left: 20px
+}
+
+.NavigationItem:hover .NavigationItemToolbar {
+    display: flex;
+}
+
+.NavigationItemToolbarButton {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+/*# sourceMappingURL=stories-TreeNavigation-stories.01d5794b.chunk.css.map*/
